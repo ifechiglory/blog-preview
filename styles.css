@@ -14,22 +14,26 @@
     margin: 0;
     padding: 0;
   }
+
+  body{
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   main {
-    background-color: #f5d04e;
-    margin: 0;
-    width: 100%;
+    width: 65%;
     min-height: 100vh;
     align-items: center;
+    justify-content: center;
     display: flex;
   }
   
   .main-section {
-    width: 40%;
-    margin: auto;
     height: fit-content;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     border: 1px solid black;
     box-shadow: 5px 5px 5px black;
