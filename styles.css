@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    background-color: #f5d04e;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+  
+  .main-section {
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  .image-holder {
+    margin-bottom: 15px;
+  }
+  
+  .image-holder img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  h3 {
+    background-color: #f5d04e;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Figtree';
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 14px;
+    margin: 15px 0;
+    color: #555;
+    font-family: 'Figtree';
+    font-weight: 800;
+  }
+  
+  h1 {
+    font-size: 25px;
+    margin: 15px 0;
+    font-family: 'Figtree';
+    font-weight: 800;
+  }
+  
+  p {
+    color: #555;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Figtree';
+    font-weight: 500;
+  }
+  
+  .footer-image {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  span {
+    font-family: 'Figtree';
+    font-weight: 800;
+  }
+  
+  /* 📱 Mobile (up to 480px) */
+  @media (max-width: 480px) {
+    .main-section {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 12px;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    h3 {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  }
+  
+  /* 📲 Tablets (481px – 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .main-section {
+      width: 70%;
+      padding: 12px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  
+  /* 💻 Small laptops (769px – 1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .main-section {
+      width: 60%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  /* 🖥️ Large screens (1025px and up) */
+  @media (min-width: 1025px) {
+    .main-section {
+      width: 40%;
+      max-width: 800px; /* stops it from getting too wide */
+    }
+  }
+  
